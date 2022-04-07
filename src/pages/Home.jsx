@@ -7,6 +7,10 @@ class Home extends Component {
         return (
             <div className="layout">
                 <h3>Welcome</h3>
+                <div>
+                    <button>About Us</button>
+                    <button>Categories</button>
+                </div>
             </div>
         );
     }
